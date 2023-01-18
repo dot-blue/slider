@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  width: 40vw;
+  height: 40vw;
+
+  margin: 0 auto;
+  background-color: rgb(221, 238, 238);
+}
+
+.slider-line {
+  display: block;
+  width: 80%;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.463);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.slider-circle {
+  width: 45px;
+  height: 25px;
+  background-color: rgb(82, 82, 195);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+  width: 45px;
+  height: 45px;
+  background-color: red;
+}
